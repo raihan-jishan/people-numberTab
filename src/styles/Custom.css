@@ -1,0 +1,76 @@
+.ApplicationTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(235, 235, 235, 0.322);
+    letter-spacing: 2px;
+    margin: 10px;
+}
+ 
+.inputTags input{
+    margin: 10px;
+    outline: none;
+    border: none;
+    padding: 8px  9px;
+    border-radius: 0.7rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+/* createBtn */
+.createBtn{
+    transition: 0.3;
+    border: 0;
+    outline: 0;
+    background: var(--newGreen);
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.createBtn:hover{
+    background: #00d370d1;
+}
+
+/* dataTable */
+.dataTable{
+    display: flex;
+
+    
+}
+.dataTable h3{
+    background: rgba(192, 192, 192, 0.11);
+    margin: 10px;
+    
+    border-radius: 0.5rem;
+}
+
+/* deleteBtn */
+.deleteBtn{
+  
+    padding: 7px;
+    margin: 5px;
+    border:0;
+    outline: 0;
+    /* background: rgb(175, 175, 175); */
+    background: hsl(143, 81%, 54%);;
+    color: rgb(0, 0, 0);
+    border-radius: 0.6rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3 linear;
+}
+.deleteBtn:hover{
+    transform: scale(1.1);
+    background: hsl(143, 100%, 48%);;
+}
+@media screen and (max-width: 470px) {
+    .dataTable  {
+       display: flex;
+       width: 100%;
+       flex-direction: column;
+    }
+}
+
